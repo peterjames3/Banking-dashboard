@@ -3,7 +3,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
@@ -12,8 +13,8 @@
     "autoprefixer": "10.4.19",
     "bcryptjs": "^2.4.3",
     "clsx": "^2.1.1",
-    "next": "15.0.0-canary.56",
-    "next-auth": "5.0.0-beta.19",
+    "next": "15.0.0-canary.179",
+    "next-auth": "5.0.0-beta.22",
     "postcss": "8.4.38",
     "react": "19.0.0-rc-f38c22b244-20240704",
     "react-dom": "19.0.0-rc-f38c22b244-20240704",
@@ -24,9 +25,12 @@
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "20.14.8",
     "@types/react": "18.3.3",
-    "@types/react-dom": "18.3.0"
+    "@types/react-dom": "18.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15"
   },
   "engines": {
     "node": ">=20.12.0"
